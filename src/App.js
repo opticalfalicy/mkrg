@@ -5,20 +5,46 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className='key'>
+        <div className='key-block fB'>
+          <item className='key-note F W'>
+          </item>
+          <item className='key-note Gf B'>
+          </item>
+          <item className='key-note G W'>
+          </item>
+          <item className='key-note Af B'>
+          </item>
+          <item className='key-note A W'>
+          </item>
+          <item className='key-note Bf B'>
+          </item>
+          <item className='key-note B W'>
+          </item>
+        </div>
+        <div className='key-block cE'>
+        <item className='key-note C W'>
+         </item>
+         <item className='key-note Df B'>
+          </item>
+        <item className='key-note D W'>
+         </item>
+         <item className='key-note Ef B'>
+          </item>
+        <item className='key-note E W'>
+         </item>
+        </div>
+        <div className='key-block fB'>
+          <item className='key-note F W'>
+          </item>
+          <item className='key-note G W'>
+          </item>
+          <item className='key-note A W'>
+          </item>
+          <item className='key-note B W'>
+          </item>
+        </div>
+      </div>
     </div>
   );
 }
