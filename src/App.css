@@ -1,4 +1,66 @@
 .App {
   text-align: center;
 }
+.App{
+  height: 100vh;
+  width: 100%;
+}
 
+.bg{
+  background-image: url('./10keys.jpg');
+  background-repeat: no-repeat;
+  background-size: 50%;
+  z-index: -1;
+  width: 100%;
+  height: 50vh;
+}
+
+.keys{
+  height: 50vh;
+  width: 100%;
+  background: black;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.octave-block{
+  width:25.8%;
+}
+
+.key-block{
+  width: 818.55px;
+  height: 100%;
+  border: 1px solid white;
+  display: flex;
+}
+
+/* .fB{
+  width: 818.55px;
+  height: 100%;
+  border: 1px solid white;
+} */
+
+.fB-1{
+  background: purple;
+}
+.fB-2{
+  background: silver;
+}
+
+.cE{
+  width: 589.55px;
+  /* height: 100%; */
+  /* border: 1px solid white; */
+  background: grey;
+}
+
+.key-note{
+  width: 272.85px;
+  height: 100%;
+  border: 1px solid black;
+  background: white
+}
+
+.cE .key-note{
+  width: 115.85px;
+}

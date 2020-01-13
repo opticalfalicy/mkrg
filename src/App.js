@@ -5,8 +5,13 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <div className='key'>
-        <div className='key-block fB'>
+      <div className='bg'>
+      </div>
+      <div className='keys'>
+        <div className='octave-block'>
+        
+        </div>
+        <div className='key-block fB fB-1'>
           <item className='key-note F W'>
           </item>
           <item className='key-note Gf B'>
@@ -34,7 +39,7 @@ function App() {
         <item className='key-note E W'>
          </item>
         </div>
-        <div className='key-block fB'>
+        {/* <div className='key-block fB fB-2'>
           <item className='key-note F W'>
           </item>
           <item className='key-note G W'>
@@ -43,7 +48,7 @@ function App() {
           </item>
           <item className='key-note B W'>
           </item>
-        </div>
+        </div> */}
       </div>
     </div>
   );
