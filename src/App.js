@@ -5,13 +5,25 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <div className='bg'>
+      <div className='dashboard'>
+        <div className='title-block'>
+          <h1 className='title-text'>
+            microKorg
+          </h1>
+        </div>
+        <div className='bank-block'>
+          <ul className='sound-bank'>
+            <li id='bank-1' className='bank-item'>Synth 1</li>
+            <li id='bank-2' className='bank-item'>Synth 2</li>
+            <li id='bank-3' className='bank-item'>Synth 3S</li>
+          </ul>
+        </div>
       </div>
       <div className='keys'>
         {/* <div className='octave-block'>
         
         </div> */}
-        <div className='key-block cE'>
+        <div className='key-block cE cE-1'>
           <div className='w-keys'>
         <item className='key-note C W'>
          </item>
@@ -48,7 +60,7 @@ function App() {
           </item>
           </div>
         </div>
-        <div className='key-block cE'>
+        <div className='key-block cE cE-2'>
           <div className='w-keys'>
         <item className='key-note C W'>
          </item>
