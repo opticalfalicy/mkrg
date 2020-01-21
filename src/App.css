@@ -51,10 +51,12 @@
 }
 
 .keys{
-  height: 50vh;
+  /* height: 50vh; */
+  height: 60vh;
   width: 100%;
   background: black;
   display: flex;
+  flex-direction: column;
   /* justify-content: flex-end; */
 }
 
@@ -102,14 +104,17 @@
 .w-keys{
   z-index: 0;
   display: flex;
+  flex-direction: column;
   position: absolute;
-  height: 100%;
+  /* height: 100%; */
+  height: 30%;
+  /* width: 12vw; */
 }
 
 .W{
   /* width: 272.85px; */
   /* width: 100px; */
-  width: 14vw;
+  width: 99vw;
   height: 100%;
   border: 1px solid rgb(104, 103, 103);
   /* background: white */
@@ -120,6 +125,10 @@
   width: 43%
 }
 
+.fB .w-keys{
+  height: 40%;
+}
+
 .fB .b-keys{
   width: 58%;
 }
@@ -127,9 +136,10 @@
 .b-keys{
   z-index: 1;
   display: flex;
+  flex-direction: column;
   justify-content: space-evenly;
   position: absolute;
-  height: 70%;
+  height: 20%;
   /* width: 15%; */
 }
 
