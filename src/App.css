@@ -131,6 +131,7 @@
 
 .fB .b-keys{
   width: 58%;
+  height: 40%;
 }
 
 .b-keys{
@@ -139,15 +140,28 @@
   flex-direction: column;
   justify-content: space-evenly;
   position: absolute;
-  height: 20%;
+  height: 30%;
   /* width: 15%; */
 }
 
 .Bl{
-  width: 40px;
+  width: 120px;
   border: 1px solid rgb(99, 20, 13);
   /* background: black; */
   background-color: rgb(212, 50, 36);
+  height: 15%
+}
 
-  height: 50%
+.B2{
+  width: 120px;
+  border: 1px solid rgb(99, 20, 13);
+  /* background: black; */
+  background-color: rgb(212, 50, 36);
+  height: 12%
+}
+
+@media screen and (min-width: 560px){
+  body{
+    display: none;
+  }
 }

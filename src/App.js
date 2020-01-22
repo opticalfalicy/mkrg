@@ -15,7 +15,7 @@ function App() {
           <ul className='sound-bank'>
             <li id='bank-1' className='bank-item'>Synth 1</li>
             <li id='bank-2' className='bank-item'>Synth 2</li>
-            <li id='bank-3' className='bank-item'>Synth 3S</li>
+            <li id='bank-3' className='bank-item'>Synth 3</li>
           </ul>
         </div>
       </div>
@@ -52,11 +52,11 @@ function App() {
 
           </div>
           <div className='b-keys'>
-          <item className='key-note Gf Bl'>
+          <item className='key-note Gf B2'>
           </item>
-          <item className='key-note Af Bl'>
+          <item className='key-note Af B2'>
           </item>
-          <item className='key-note Bf Bl'>
+          <item className='key-note Bf B2'>
           </item>
           </div>
         </div>
