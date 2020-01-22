@@ -60,7 +60,7 @@ function App() {
           </item>
           </div>
         </div>
-        <div className='key-block cE cE-2'>
+        {/* <div className='key-block cE cE-2'>
           <div className='w-keys'>
         <item className='key-note C W'>
          </item>
@@ -74,8 +74,8 @@ function App() {
           </item>
          <item className='key-note Ef Bl'>
           </item>
-        </div>
-        </div>
+        </div> */}
+        {/* </div> */}
         {/* <div className='key-block fB fB-2'>
           <item className='key-note F W'>
           </item>
