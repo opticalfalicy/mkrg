@@ -245,7 +245,7 @@
   
   .cE{
     /* width: 589.55px; */
-    width: 50%;
+    width: 45%;
     /* height: 100%; */
     /* border: 1px solid white; */
     background: grey;
@@ -261,12 +261,17 @@
     position: absolute;
     height: 100%;
     flex-direction: row;
+    width: 55vw;
+  }
+
+  .fB .w-keys{
+    height: 70%;
   }
   
   .W{
     /* width: 272.85px; */
     /* width: 100px; */
-    width: 10vw;
+    width: 15vw;
     height: 100%;
     border: 1px solid black;
     background: white
