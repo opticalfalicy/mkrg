@@ -25,38 +25,38 @@ function App() {
         </div> */}
         <div className='key-block cE cE-1'>
           <div className='w-keys'>
-        <item className='key-note C W'>
+        <item className='key-note C W w1'>
          </item>
-        <item className='key-note D W'>
+        <item className='key-note D W w1'>
          </item>
-        <item className='key-note E W'>
+        <item className='key-note E W w1'>
          </item>
           </div>
         <div className='b-keys'>
-         <item className='key-note Df Bl'>
+         <item className='key-note Df bl'>
           </item>
-         <item className='key-note Ef Bl'>
+         <item className='key-note Ef bl'>
           </item>
         </div>
         </div>
         <div className='key-block fB fB-1'>
           <div className='w-keys'>
-          <item className='key-note F W'>
+          <item className='key-note F W w2'>
           </item>
-          <item className='key-note G W'>
+          <item className='key-note G W w2'>
           </item>
-          <item className='key-note A W'>
+          <item className='key-note A W w2'>
           </item>
-          <item className='key-note B W'>
+          <item className='key-note B W w2'>
           </item>
 
           </div>
           <div className='b-keys'>
-          <item className='key-note Gf B2'>
+          <item className='key-note Gf b b2'>
           </item>
-          <item className='key-note Af B2'>
+          <item className='key-note Af b b2'>
           </item>
-          <item className='key-note Bf B2'>
+          <item className='key-note Bf b b2'>
           </item>
           </div>
         </div>
